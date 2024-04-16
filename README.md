@@ -1,6 +1,6 @@
 # FluSight Forecasts (Hubverse Version)
 
-This repo contains the origina FluSight Forecast submissions (<https://github.com/cdcepi/FluSight-forecasts>), reformatted to align with the hubverse format. For further detailed information on the original submissions and the content/format of the original files, refer to the repository above.
+This repo contains the original FluSight Forecast submissions (<https://github.com/cdcepi/FluSight-forecasts>), reformatted to align with the hubverse format. For further detailed information on the original submissions and the content/format of the original files, refer to the repository above.
 
 ## Original Submissions
 
