@@ -29,7 +29,7 @@
                       },
                       "target":{
                           "required": null,
-                          "optional": ["season onset wk", "season peak wk", "season peak perc", "flu incidence"]
+                          "optional": ["season onset wk", "season peak wk", "season peak perc", "ili perc"]
                         },
                         "horizon": {
                           "required": null,
@@ -81,15 +81,48 @@
                     },
                     "target_metadata":[
                       {
-                        "target_id": "flu incidence",
-                        "target_name": "Weekly flu rate",
+                        "target_id": "season onset wk",
+                        "target_name": "season onset wk",
+                        "target_units": "week",
+                        "target_keys": {
+                          "target": "season onset wk"
+                        },
+                        "description": "MMWR surveillance week where the percentage of visits for ILI reported through ILINet reaches or exceeds the baseline value for 3 consecutive weeks",
+                        "target_type": "continuous",
+                        "is_step_ahead": false
+                      },
+                      {
+                        "target_id": "season peak wk",
+                        "target_name": "season peak wk",
+                        "target_units": "week",
+                        "target_keys": {
+                          "target": "season peak wk"
+                        },
+                        "description": "MMWR surveillance week where the weighted ILINet percentages reaches its max for a given influenza season",
+                        "target_type": "continuous",
+                        "is_step_ahead": false
+                      },
+                      {
+                        "target_id": "season peak perc",
+                        "target_name": "season peak perc",
                         "target_units": "percent",
                         "target_keys": {
-                          "target": "flu incidence"
+                          "target": "season peak perc"
                         },
-                        "description": "Weekly flu incidence expressed as percentage?",
+                        "description": "The peak or maximum weighted ILINet percentage reached in a given influenza season",
                         "target_type": "continuous",
-                        "is_step_ahead": false,
+                        "is_step_ahead": false
+                      },
+                      {
+                        "target_id": "ili perc",
+                        "target_name": "Weight ILINet percentage",
+                        "target_units": "percent",
+                        "target_keys": {
+                          "target": "ili perc"
+                        },
+                        "description": "Weight ILINet percentage",
+                        "target_type": "continuous",
+                        "is_step_ahead": true,
                         "time_unit": "week"
                       }
                     ]
