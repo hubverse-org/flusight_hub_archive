@@ -7,6 +7,6 @@
         "email": "Luke.Mullany@jhuapl.edu"
     },
     "repository_url": "https://github.com/lmullany/flusight1_hubverse",
-    "file_format": ["csv", "parquet", "pqt"],
+    "file_format": ["csv", "parquet"],
     "timezone": "US/Eastern"
 }
