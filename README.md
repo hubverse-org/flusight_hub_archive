@@ -14,9 +14,16 @@ Submissions were submitted by modeling teams and organized within season by the 
 
 There were four types of targets related to influenza-like illness: season onset, peak week, peak percentage, and week ahead forecasts (1, 2, 3, and weeks) of weighted ILINet percentage
 
+A copy of all original submissions, organized by season/team (e.g. `2015-2016/TeamXX/`) can be found in `original_raw_data/`. All of the original submissions are stored in parquet format
+
 ## Conversion Approach
 
 **To do**
+
+
+## Scripts
+
+Scripts to reproduce the steps taken to create this hubverse formatted version of the repo can be found in the `scripts/` folder.
 
 ## Acknowledgments
 
