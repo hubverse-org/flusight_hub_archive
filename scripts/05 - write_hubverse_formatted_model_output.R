@@ -1,6 +1,6 @@
 # Script writes the model_output files
 # Note: the script depends on being run directly after
-# 03 - convert_raw_flusight_data_to_hubverse_format
+# 04 - identify_and_separate_invalid_submissions
 
 
 # Remove everything except the df created by the parent script and
