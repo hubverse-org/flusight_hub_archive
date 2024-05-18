@@ -8,6 +8,13 @@
 rm(list=setdiff(ls(), "df"))
 gc()
 
+# Add the standardize lookup
+std_names_lookup = fread("standard_model_team_names.csv")
+df <- df[std_names_lookup, on="model"]
+df[, model:=std_model_id]
+df[, std_model_id:=NULL]
+gc()
+
 # get the unique rounds
 rounds = df[, unique(origin_date)]
 
