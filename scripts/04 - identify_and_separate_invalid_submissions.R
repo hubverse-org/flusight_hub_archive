@@ -2,6 +2,8 @@
 # Specifically, we will check if pmf sum to 1 and cdf does not have maximum
 # above 1. These tasks will be removed and written to an excluded-data folder
 
+# Note: script depends on the output of parent script 03-convert_raw_flusight_data_to_hubverse_format.R
+
 
 rm(list=setdiff(ls(), "df"))
 gc()
