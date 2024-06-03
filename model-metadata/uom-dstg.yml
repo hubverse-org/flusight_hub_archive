@@ -1,0 +1,10 @@
+team_abbr: "uom"
+model_abbr: "dstg"
+model_contributors: [
+  {
+    "name": "Rob Moss",
+    "affiliation": "University of Melbourne",
+    "email": "rgmoss@unimelb.edu.au"
+  }
+]
+

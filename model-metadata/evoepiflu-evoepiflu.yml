@@ -1,0 +1,23 @@
+team_abbr: "evoepiflu"
+model_abbr: "evoepiflu"
+model_contributors: [
+  {
+    "name": "Xiangjun Du",
+    "affiliation": "University of Chicago"
+  },
+  {
+    "name": "Aaron A King",
+    "affiliation": "University of Michigan"
+  },
+  {
+    "name": "Robert J woods",
+    "affiliation": "University of Michigan"
+  },
+  {
+    "name": "Mercedes Pascual",
+    "affiliation": "University of Chicago, Sante Fe Institute"
+  }
+]
+citation: "https://pubmed.ncbi.nlm.nih.gov/29070700/"
+methods_long: "A compartmental SIRS model was formulated that follows the flow of the population in susceptible, infected (and infectious), and recovered classes for seasonal H3N2 and H1N1 influenza respectively. An additional RH1 class or RH3 class was designed to track the reduction in susceptibles for H3N2 or H1N1 influenza due to cross-immunity and therefore the protected population due to infection by complementary seasonal influenza (H3N2 or H1N1). An evolutionary index, E(t), was used to measure the degree of evolutionary change of the virus at current time t (in months) compared to historical strains in the past. This index is therefore formulated as a weighted sum of normalized distance between current viruses and those in the past for amino acid sequences encoding epitopes of the HA protein. Similarly, the evolutionary distance of H1N1 is calculated in the same way, except that H1N1 is only compared to the previous two seasons, and H3N2 is compared to the previous five seasons. For influenza B, we did not use this model for calculations, mainly based on the correlation between H3N2 and influenza B. Finally, the sum of the incidences of the three subtypes can be obtained."
+ensemble_of_models: false

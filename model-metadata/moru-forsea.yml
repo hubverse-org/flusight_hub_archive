@@ -1,0 +1,41 @@
+team_abbr: "moru"
+model_abbr: "forsea"
+model_contributors: [
+  {
+    "name": "Esther Van Kleef",
+    "affiliation": "MORU Tropical Health Network",
+    "email": "Esther@tropmedres.ac"
+  },
+  {
+    "name": "Rene Niehus ",
+    "affiliation": "MORU Tropical Health Network",
+    "email": "Rene.N@tropmedres.ac"
+  },
+  {
+    "name": "James Watson",
+    "affiliation": "MORU Tropical Health Network",
+    "email": "James@tropmedres.ac"
+  },
+  {
+    "name": "Chris Mercado",
+    "affiliation": "MORU Tropical Health Network",
+    "email": "Chris.M@tropmedres.ac"
+  }
+]
+methods_long: "For the point forecasts we developed an ensemble model that combines LASSO and Random Forests. Each model was optimised individually by evaluation on a test data set. We used the mean squared errors (MSE) to determine model quality. 
+We use the mean point forecasts of each model (LASSO and Random Forest) and the real observations for one season (52 weeks) to determine the distributions of the residuals. On log-scale, the residuals are roughly normally distributed. We then determine for each model the standard error of the residuals, and then we use the mean forecast and the residual standard error to compute the bin probabilities. 
+To combine the two models, we take the bin probabilities from each add them with a weighing factor. We use 1/MSE for each forecast week to weigh the 2 different models.
+As covariates in our models we use (with various different lags):
+• Season week
+• Sin of season week
+• Previous cases
+• Change in cases
+• School holidays
+• Average national temperature
+• Google search requests for “fever”
+• Google search requests for “headache”
+• Google search requests for “doctor”
+• Google search requests for “shivering”
+• Google search requests for “cough”
+For the season peak week, intensity and start week predictions, we also used penalised LASSO regression but taking as predictors the fluctuations in weighted ILI throughout the months of Sep-Nov."
+ensemble_of_models: true

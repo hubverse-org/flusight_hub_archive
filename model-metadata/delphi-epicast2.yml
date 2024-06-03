@@ -1,0 +1,27 @@
+team_abbr: "delphi"
+model_abbr: "epicast2"
+model_contributors: [
+  {
+    "name": "Logan Brooks",
+    "email": "brooks.logan@gmail.com"
+  },
+  {
+    "name": "David Farrow",
+    "email": "dfarrow0@gmail.com"
+  },
+  {
+    "name": "Roni Rosenfeld",
+    "affiliation": "Carnegie Mellon University",
+    "email": "Roni.Rosenfeld@cs.cmu.edu"
+  },
+  {
+    "name": "Jiaxian Sheng",
+    "affiliation": "Carnegie Mellon University",
+    "email": "jiaxians@andrew.cmu.edu"
+  },
+  {
+    "name": "Aaron Rumack",
+    "affiliation": "Carnegie Mellon University",
+    "email": "arumack@andrew.cmu.edu"
+  }
+]

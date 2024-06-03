@@ -1,0 +1,9 @@
+team_abbr: "ppfst"
+model_abbr: "ppfst"
+model_contributors: [
+  {
+    "name": "Jeffrey Morgan",
+    "affiliation": "Catholic University of America",
+    "email": "19morgan@cua.edu"
+  }
+]

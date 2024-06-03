@@ -1,0 +1,18 @@
+team_abbr: "kisti"
+model_abbr: "csb_26weeks"
+model_contributors: [
+  {
+    "name": "Juhyeon Kim",
+    "affiliation": "Korea Institute of Science and Technology Information",
+    "email": "hk@kisti.re.kr"
+  },
+  {
+    "name": "Choi Soo Beom",
+    "affiliation": "Korea Institute of Science and Technology Information",
+    "email": "plains7@kisti.re.kr"
+  }
+]
+citation: "Forecasting type-specific seasonal influenza after 26 weeks in the United States using influenza activities in other countries
+ S. B. Choi, J. Kim, I. Ahn doi: https://doi.org/10.1101/705855."
+methods_long: "We used temperature in U.S., influenza surveillance, and Google Trends of Australia and Chile to forecast for seasonal influenza after 26 weeks in the U.S. Moreover, for short term forecasts (1~4 week), the results of predictions after 26 weeks were adjusted using google trends of the U.S. We predict that this seasonal influenza pattern will be similar to 2014-2015 season in the U.S. and the seasonal peak intensity will be higher than 7.5% and the H3 type of influenza A virus could be the dominant subtype."
+ensemble_of_models: true

@@ -1,0 +1,21 @@
+team_abbr: "ucsf"
+model_abbr: "3"
+model_contributors: [
+  {
+    "name": "Fengchen Liu",
+    "affiliation": "University of California San Francisco",
+     "email": "aric101@hotmail.com"
+  },
+  {
+    "name": "Travis Porco",
+    "affiliation": "University of California San Francisco",
+    "email": "travis.porco@ucsf.edu"
+  },
+  {
+    "name": "Tom Lietman",
+    "affiliation": "University of California San Francisco",
+    "email": "Tom.Lietman@ucsf.edu"
+  }
+]
+
+

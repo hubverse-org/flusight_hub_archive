@@ -1,0 +1,17 @@
+team_abbr: "ua"
+model_abbr: "1"
+model_contributors: [
+  {
+    "name": "Joceline Lega",
+    "affiliation": "University of Arizona",
+    "email": "lega@math.arizona.edu"
+  },
+  {
+    "name": "Hannah Biegel",
+    "affiliation": "University of Arizona",
+    "email": "hbiegel@math.arizona.edu"
+  }
+]
+
+
+

@@ -1,0 +1,12 @@
+team_abbr: "ghri"
+model_abbr: "ghri"
+model_contributors: [
+  {
+    "name": "Mike Jackson",
+    "affiliation": "Group Health Research Group",
+    "email": "jackson.ml@ghc.org"
+  }
+]
+methods_long: "We use a compartmental Susceptible-Infectious-Recovered (SIR) mass action model to simulate influenza transmission within each of the 10 HHS regions. To account for the co-circulation of separate influenza virus types and subtypes [A(H1N1)pdm09, A(H3N2), and B], which may interfere with each other, we use the status-based SIR formulation of Gog and Grenfell. We use the modification to this model proposed by Minayev and Ferguson to allow for transient strain-transcending immunity following infection. Model parameters are defined from published literature wherever possible, including birth/death rates, duration of infectiousness, and duration of immunity following infection. We used region-specific weekly counts of laboratory-confirmed influenza infection for October 2014 through September 2016 (stratified by type/subtype) to estimate the remaining parameters. Parameters were estimated through a monte carlo parameter sweep. Estimated parameters include seasonally-forced R0, which are type/subtype-specific, and the proportion of infections that are detected by surveillance, which is assumed to be constant across types/subtypes within a region. We also estimated the proportion of the population susceptible to each type/subtype prior to the start of the 2014/15 influenza season."
+ensemble_of_models: true
+

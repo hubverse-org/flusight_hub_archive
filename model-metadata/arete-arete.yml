@@ -1,0 +1,15 @@
+team_abbr: "arete"
+model_abbr: "arete"
+model_contributors: [
+  {
+    "name": "Scott Dobson",
+    "affiliation": "Arete Associates",
+    "email": "dobson@arete.com"
+  },
+  {
+    "name": "Karyn Apfeldorf",
+    "affiliation": "Arete Associates",
+    "email": "KApfeldorf@arete.com "
+  }
+]
+

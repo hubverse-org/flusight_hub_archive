@@ -1,0 +1,17 @@
+team_abbr: "flux"
+model_abbr: "flux"
+model_contributors: [
+  {
+    "name": "Srinivasan Venkatramanans",
+    "affiliation": "University of Virginia",
+    "email": "srini@virginia.edu"
+  },
+  {
+    "name": "Bryan Leroy Lewis",
+    "affiliation": "University of Virginia",
+    "email": "brylew@virginia.edu"
+  }
+]
+citation: "https://ieeexplore.ieee.org/document/8031141/"
+methods_long: "The model being submitted contains three components: (a) LSTM: machine learning based model which uses recurrent neural networks to chain 1-week ahead forecasts for entire season ahead (b) PSB: metapopulation model at HHS level using commuter/airline network with bayesian calibration (c) crowd-sourced ensemble with votes for region-target_type across LSTM, PSB and Hist-Avg."
+ensemble_of_models: true

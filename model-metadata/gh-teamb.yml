@@ -1,0 +1,16 @@
+team_abbr: "gh"
+model_abbr: "teamb"
+model_contributors: [
+  {
+    "name": "April Fordyce",
+    "affiliation": "Guidehouse",
+    "email": "afordyce@guidehouse.com"
+  },
+   {
+    "name": "Stephen Morris",
+    "affiliation": "Guidehouse",
+    "email": "smorris@guidehouse.com"
+  }
+]
+ensemble_of_models: false
+

@@ -1,0 +1,23 @@
+team_abbr: "vt"
+model_abbr: "4sight"
+model_contributors: [
+  {
+    "name": "Naren Ramakrishnan",
+    "affiliation": "Virginia Tech",
+    "email": "naren@cs.vt.edu"
+  },
+  {
+    "name": "Debanjan Datta <",
+    "affiliation": "Virginia Tech",
+    "email": "ddatta@vt.edu"
+  },
+  {
+    "name": "Srinivasan Venkatramanan",
+    "affiliation": "Virginia Tech",
+    "email": "vsriniv@bi.vt.edu"
+  }
+]
+citation: " "
+methods: "Dynamic data-driven SIRS model and aims to use a Bayesian Filter to continuously assimilate observed data sources into model characteristics and generate an ensemble of models"
+ensemble_of_models: true
+

@@ -1,0 +1,27 @@
+team_abbr: "kot"
+model_abbr: "dev"
+model_contributors: [
+  {
+    "name": "Evan Ray",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "evan.l.ray@gmail.com"
+  },
+  {
+    "name": "Nicholas Reich",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "nick@schoolph.umass.edu"
+  },
+  {
+    "name": "Alexandria Brown",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "acbro0@schoolph.umass.edu"
+  },
+  {
+    "name": "Graham Gibson",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "gcgibson@umass.edu"
+  }
+]
+methods_long: "KoTdev is a development version, which we will update over the course of the season.  We have plans for tweaks to all three of the existing component models, the addition of new component models, and changes to computation of the model weights.  This model provides a sandbox for development of new features and continuous improvement of our prediction methodology.  In the first submission week, the predictions from KoTstable and KoTdev are identical."
+ensemble_of_models: true
+

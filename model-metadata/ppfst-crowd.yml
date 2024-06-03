@@ -1,0 +1,11 @@
+team_abbr: "ppfst"
+model_abbr: "crowd"
+model_contributors: [
+  {
+    "name": "Jeffrey Morgan",
+    "affiliation": "Catholic University of America",
+    "email": "19morgan@cua.edu"
+  }
+]
+methods_long: "The PPFST Crowd approach is to take a Wisdom of Crowds approach and use human beings to consider the merits of other selected models and vote for the best model in terms of what is most likely to yield the most points. Their selection is based on a number of factors including information provided on the current and previous influenza seasons and the performance of models in the current and previous seasons. Crowd members are welcome to use any other sources they desire in their selection of the best model. The PPFST Crowd model provides probabilities for the bins associated with the seven targets of the Influenza Challenge at the National and Regional level."
+

@@ -1,0 +1,18 @@
+team_abbr: "lanl"
+model_abbr: "dbmplus"
+model_contributors: [
+  {
+    "name": "Dave Osthus",
+    "affiliation": "Los Alamos National Laboratory",
+    "email": "dosthus@lanl.gov"
+  },
+  {
+    "name": "Sara Del Valle",
+    "affiliation": "Los Alamos National Laboratory",
+    "email": "sdelvall@lanl.gov"
+  }
+]
+citation: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006599"
+methods_long: "DBMplus combines a mechanistic SIR model with a flexible statistical discrepancy model in a common Bayesian modeling framework. DBMplus fits each region indepencently and thus does not share information across geography. DBMplus independently runs a nowcasting regression (LASSO) model using GHT data as covariates to produce nowcasts. Those nowcasts are appended to the end of the ILINet wILI data."
+ensemble_of_models: false
+

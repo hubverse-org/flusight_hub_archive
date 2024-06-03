@@ -1,0 +1,15 @@
+team_abbr: "uom"
+model_abbr: "uom"
+model_contributors: [
+  {
+    "name": "Rob Moss",
+    "affiliation": "University of Melbourne",
+    "email": "rgmoss@unimelb.edu.au"
+  },
+  {
+    "name": "Alex Zarebski",
+    "affiliation": "University of Melbourne",
+    "email": "a.zarebski@student.unimelb.edu.au"
+  }
+]
+

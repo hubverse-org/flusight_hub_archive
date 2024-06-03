@@ -1,0 +1,27 @@
+team_abbr: "psi"
+model_abbr: "dice"
+model_contributors: [
+  {
+    "name": "Steve Riley",
+    "affiliation": "Imperial College London",
+    "email": "s.riley@imperial.ac.uk"
+  },
+  {
+    "name": "Michal Ben-Nun",
+    "affiliation": "PredSci",
+    "email": "mbennun@predsci.com"
+  },
+  {
+    "name": "James Turtle",
+    "affiliation": "PredSci",
+    "email": "jturtle@predsci.com"
+  },
+  {
+    "name": "Pete Riley",
+    "affiliation": "PredSci",
+    "email": "pete@predsci.com"
+  }
+]
+methods_long: "The PSI model (DICE) uses a Markov Chain Monte Carlo (MCMC) procedure to estimate weekly ILI incidence. The model can be run uncoupled, in which case each region is modeled individually and the national profile is computed from a weighted average, or as a coupled spatial model. In the former scenario, for each of the ten HHS regions, we employ a variety of models which allows the force of infection to be either: fixed, depend on the school vacation schedule, and/or the weekly averaged specific humidity. For each model, we also examine four different likelihoods, such as one that is augmented by a heated posterior distribution of the most similar prior season. For each region, we select one model from these 16 options and build a national prediction from weighted averages of the ten regions."
+ensemble_of_models: true
+

@@ -1,0 +1,17 @@
+team_abbr: "lanl"
+model_abbr: "lanl"
+model_contributors: [
+  {
+    "name": "Dave Osthus",
+    "affiliation": "Los Alamos National Laboratory",
+    "email": "dosthus@lanl.gov"
+  },
+  {
+    "name": "Sara Del Valle",
+    "affiliation": "Los Alamos National Laboratory",
+    "email": "sdelvall@lanl.gov"
+  }
+]
+methods_long: "Our forecasting model consists of two components. The first component forecasts the number of detected cases of laboratory-confirmed influenza in each of the 10 United States Health and Human Services (HHS) Regions. The second component estimates the percent of visits positive for influenza (ILIpercent) based on the forecasted influenza counts."
+ensemble_of_models: true
+

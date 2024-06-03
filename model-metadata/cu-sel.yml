@@ -1,0 +1,31 @@
+team_abbr: "cu"
+model_abbr: "sel"
+model_contributors: [
+  {
+    "name": "Haruka Morita",
+    "affiliation": "Columbia",
+    "email": "hm2487@cumc.columbia.edu"
+  },
+  {
+    "name": "Jeffery L Shaman",
+    "affiliation": "Columbia",
+    "email": "jls106@cumc.columbia.edu"
+  },
+  {
+    "name": "Sasikiran Kandula",
+    "affiliation": "Columbia",
+    "email": "sk3542@cumc.columbia.edu"
+  },
+  {
+    "name": "Teresa K Yamana",
+    "affiliation": "Columbia",
+    "email": "tky2104@cumc.columbia.edu"
+  },
+  {
+    "name": "Sen Pei",
+    "affiliation": "Columbia",
+    "email": "sp3449@cumc.columbia.edu"
+  }
+]
+methods: "Seasonal forecasts using a SEIRS compartmental model with Ensemble Kalman filter. 1 week ahead nowcasts. 2-4 week targets with autoregressive methods"
+ensemble_of_models: false

@@ -1,0 +1,24 @@
+team_abbr: "fluoutlook"
+model_abbr: "mechaug2"
+model_contributors: [
+  {
+    "name": "Mauricio Santillana, Qian Zhang, Xinyue Xiong, Alessandro Vespignani, Xinyue Xiong ",
+    "affiliation": "Harvard",
+    "email": "msantill@g.harvard.edu"
+  },
+  {
+    "name": "Qian Zhang",
+    "affiliation": " ",
+    "email": "zhangqianrach@gmail.com"
+  },
+  {
+    "name": "Xinyue Xiong",
+    "affiliation": "Northeastern University",
+    "email": "xiong.xin@husky.neu.edu"
+  },
+  {
+    "name": "Alessandro Vespignani",
+    "affiliation": "Northeastern University",
+    "email": "neu.vespignani.challenge@gmail.com"
+  }
+]

@@ -1,0 +1,32 @@
+team_abbr: "cu"
+model_abbr: "albatross"
+model_contributors: [
+  {
+    "name": "Haruka Morita",
+    "affiliation": "Columbia",
+    "email": "hm2487@cumc.columbia.edu"
+  },
+  {
+    "name": "Jeffery L Shaman",
+    "affiliation": "Columbia",
+    "email": "jls106@cumc.columbia.edu"
+  },
+  {
+    "name": "Sasikiran Kandula",
+    "affiliation": "Columbia",
+    "email": "sk3542@cumc.columbia.edu"
+  },
+  {
+    "name": "Teresa K Yamana",
+    "affiliation": "Columbia",
+    "email": "tky2104@cumc.columbia.edu"
+  },
+  {
+    "name": "Sen Pei",
+    "affiliation": "Columbia",
+    "email": "sp3449@cumc.columbia.edu"
+  }
+]
+methods_long: "A statistical model where the seasonal curve is modeled using splines and periodic basis functions. The model is hierarchical, such that each region and year has region- and year-specific spline coefficients that are drawn from hierarchical distribution structures (i.e., year coefficients from “global” coefficients, region coefficients from year coefficients)."
+
+

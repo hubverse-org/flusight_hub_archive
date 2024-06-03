@@ -1,0 +1,37 @@
+team_abbr: "guidehouse"
+model_abbr: "a"
+model_contributors: [
+  {
+    "name": "Mathias Bellaiche",
+    "affiliation": "Guidehouse",
+    "email": "mbellaiche@guidehouse.com"
+  },
+  {
+    "name": "April Fordyce",
+    "affiliation": "Guidehouse",
+    "email": "afordyce@guidehouse.com"
+  },
+  {
+    "name": "Stephen Morris",
+    "affiliation": "Guidehouse",
+    "email": "smorris@guidehouse.com"
+  },
+  {
+    "name": "Fred Sieling",
+    "affiliation": "Guidehouse",
+    "email": "fsieling@guidehouse.com"
+  },
+  {
+    "name": "Han Liao",
+    "affiliation": "Guidehouse",
+    "email": "mliao@guidehouse.com"
+  },
+  {
+    "name": "Minsoo Kim",
+    "affiliation": "Guidehouse",
+    "email": "mikim@guidehouse.com"
+  }
+]
+methods_long: "We train a random forest model using historical data from the ILINet network, creating variables that hold the current and previous weeks' weighted ILI as well as their difference and scaled difference from the current week. We also limit the training set to those weeks that are most similar to the current week."
+ensemble_of_models: false
+

@@ -1,0 +1,11 @@
+team_abbr: "team"
+model_abbr: "a"
+model_contributors: [
+  {
+    "name": "Olivia Smith",
+    "affiliation": "IBM Australia",
+    "email": "livsmith@au1.ibm.com"
+  }
+]
+
+

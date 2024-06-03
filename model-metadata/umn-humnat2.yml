@@ -1,0 +1,22 @@
+team_abbr: "umn"
+model_abbr: "humnat2"
+model_contributors: [
+  {
+    "name": "Yang Liu",
+    "affiliation": "University of Minnesota",
+    "email": "liux3204@umn.edu"
+  },
+  {
+    "name": "Jospeh Servadio",
+    "affiliation": "University of Minnesota",
+    "email": "serva024@umn.edu"
+  },
+  {
+    "name": "Matteo Convertino",
+    "affiliation": "University of Minnesota",
+    "email": "matteoc@umn.edu"
+  }
+]
+methods: "This approach 1) identifies the most important predictors and 2) uses a stochastic generalized linear model to generate decoupled local and national forecasts for the upcoming influenza season."
+ensemble_of_models: false
+

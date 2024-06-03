@@ -1,0 +1,11 @@
+team_abbr: "kpwhri"
+model_abbr: "kpwhri"
+model_contributors: [
+  {
+    "name": "Mike Jackson",
+    "affiliation": "Guidehouse",
+    "email": "jackson.ml@ghc.org"
+  }
+]
+methods_long: "Our forecasting model consists of two components. The first component forecasts the number of detected cases of laboratory-confirmed influenza in each of the 10 United States Health and Human Services (HHS) Regions. The second component estimates the percent of visits positive for influenza (ILIpercent) based on the forecasted influenza counts."
+

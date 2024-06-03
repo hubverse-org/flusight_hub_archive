@@ -1,0 +1,22 @@
+team_abbr: "umn"
+model_abbr: "humnat"
+model_contributors: [
+  {
+    "name": "Yang Liu",
+    "affiliation": "University of Minnesota",
+    "email": "liux3204@umn.edu"
+  },
+  {
+    "name": "Jospeh Servadio",
+    "affiliation": "University of Minnesota",
+    "email": "serva024@umn.edu"
+  },
+  {
+    "name": "Matteo Convertino",
+    "affiliation": "University of Minnesota",
+    "email": "matteoc@umn.edu"
+  }
+]
+methods_long: "The primary data souce for environmental info is NASA Global Modeling and Assimilation Office. The following steps are repeated for each HHS region: 1) use mutual information (MI) to explore the dependencies between independent variable and its own hisotry and with the history of contributing factors, 2) use variance inflation factor to eliminate candidates from teh dependent varibale space that can already be well represented by others, 3) use Breiman's random forest algorithm to evaluate the remaining candidates in the dependent space, 4) use lognormal model to run the regression."
+ensemble_of_models: false
+
