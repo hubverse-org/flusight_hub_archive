@@ -12,7 +12,22 @@ model_contributors: [
     "email": "sdelvall@lanl.gov"
   }
 ]
-methods_long: "Danteplus models the joint distribution of ILI (%) data at the state scale as an overall anchor effect, a state-specific effect, a season-specific, and a seaso/state-specific interaction effect. The  four different effects are modeled as random or reverse-random walks. The seasonal component, instead of a reverse-random walk, uses a non-stationary Gaussian process. The hope is that this GP component adds more uncertainty to the forecasts in the middle of the season, as last year Dante was too confident during winter. State-level forecasts amount to draws from the posterior predictive distribution. Regional and National forecasts are generated as weighted, linear combinations of state forecasts, where the weights are porportional to US Census data to generate wILI forecasts at coarser scales. The An external nowcasting model is used to produce a nowcast (what is sometimes called a """"hindcast"""") based on Google Health Trends data. The nowcasting model is a LASSO regression model. Nowcasts are generated independently at each geographic scale and are then combined with generalized least squares to be coherent. The nowcasts/hindcasts are appended to the available ILINet data. 
-Note: LANL-Danteplus is the exact same model as for the state challenge."
+methods_long: >
+    Danteplus models the joint distribution of ILI (%) data at the state 
+    scale as an overall anchor effect, a state-specific effect, a season-specific, 
+    and a seaso/state-specific interaction effect. The  four different effects are 
+    modeled as random or reverse-random walks. The seasonal component, instead of a 
+    reverse-random walk, uses a non-stationary Gaussian process. The hope is that this 
+    GP component adds more uncertainty to the forecasts in the middle of the season, as 
+    last year Dante was too confident during winter. State-level forecasts amount to 
+    draws from the posterior predictive distribution. Regional and National forecasts 
+    are generated as weighted, linear combinations of state forecasts, where the weights 
+    are porportional to US Census data to generate wILI forecasts at coarser scales. 
+    The An external nowcasting model is used to produce a nowcast (what is sometimes 
+    called a 'hindcast') based on Google Health Trends data. The nowcasting model is 
+    a LASSO regression model. Nowcasts are generated independently at each geographic 
+    scale and are then combined with generalized least squares to be coherent. 
+    The nowcasts/hindcasts are appended to the available ILINet data. 
+    Note: LANL-Danteplus is the exact same model as for the state challenge.
 
 

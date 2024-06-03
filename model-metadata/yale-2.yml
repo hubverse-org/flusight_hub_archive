@@ -22,6 +22,6 @@ model_contributors: [
     "email": "sequoia.leuba@yale.edu"
   }
 ]
-methods_long: "We call this approach experimental because we plan to include further data sources "on the flu" when they become available. The main difference between this approach and the Model1 approach is the treatment of ILI as one disease in an SIRS model (compared to 2 diseases- flu and ILI without flu- in the YaleModel1. This is a difference in data source and modeling only, the calibration and prediction techniques are identical in both approaches."
+methods_long: "We call this approach experimental because we plan to include further data sources 'on the flu' when they become available. The main difference between this approach and the Model1 approach is the treatment of ILI as one disease in an SIRS model (compared to 2 diseases- flu and ILI without flu- in the YaleModel1. This is a difference in data source and modeling only, the calibration and prediction techniques are identical in both approaches."
 ensemble_of_models: true
 
