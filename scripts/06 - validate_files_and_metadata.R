@@ -14,3 +14,13 @@ for (file in metadata_files) {
                           file_path = file)
   print(tmp)
 }
+
+## validate
+output_files <- list.files("model-output/",recursive = TRUE)
+
+for (file in output_files) {
+  print(paste("checking", file))
+  tmp <- validate_model_data(hub_path = "./", 
+                             file_path = file)
+  print(tmp)
+}
