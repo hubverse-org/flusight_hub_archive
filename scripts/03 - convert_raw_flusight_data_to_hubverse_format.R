@@ -83,6 +83,15 @@ data[ew<=18, forecast_round:=paste0(substr(yr,6,9), "-", substr(src,3,4))]
 data[ew>18, forecast_round:=paste0(substr(yr,1,4), "-", substr(src,3,4))]
 
 
+## correct the bin_end_notincl in cases where it is <NA>
+## based on some exploration, it appears that there were some cases where 
+## this value was <NA> when it should have been 100
+## e.g. 
+# tmpraw <- arrow::read_parquet(file = "./original_raw_data/2016-2017/Hist-Avg/EW43_Hist-Avg_2016-11-07.parquet")
+# tmpraw %>% 
+#   filter(is.na(bin_end_notincl))
+data[is.na(bin_end_notincl) & type == "Bin", bin_end_notincl:=100]
+
 # Columns
 # - origin_epiweek ( we start with forecast_round from the raw data; 
 #   other options here are convert this to a date (i.e. the saturday of this week), 
@@ -146,6 +155,24 @@ create_output_type_and_id <- function(df) {
     output_type == "mean", NA_character_
   )]
   
+  ## for some cdf model output type rows, there were floating point issues with output_type_id values
+  ##   therefore, we decided to round and truncate digits for all output_type_id values
+  ##   for cdf output_type rows
+  df[output_type=="cdf", 
+     output_type_id:=as.character(round(as.numeric(output_type_id), digits = 1))]
+
+  ## for some pmf model output type rows, in the output_type_id column... 
+  ##   (1) there are "-1" values where "none" should be present
+  ##       e.g., see ./model-output/kot-adaptive/2019-11-09-kot-adaptive.parquet
+  ##   (2) there are values like "40.0" where they should be integers. These
+  ##       are instances where they are referring to an MMWR week which should
+  ##       be defined by an integer.
+  ##       e.g., see ./model-output/kot-adaptive/2019-11-23-kot-adaptive.parquet
+  df[output_type=="pmf" & output_type_id == "-1", 
+     output_type_id:="none"]
+  df[output_type=="pmf" & output_type_id != "none", 
+     output_type_id:=as.character(as.integer(output_type_id))]
+
   # Now, we have to adjust the value if we have cdf
   df[output_type=="cdf", value:=cumsum(value), by=.(src, model, origin_epiweek, location, target, horizon)]
   
