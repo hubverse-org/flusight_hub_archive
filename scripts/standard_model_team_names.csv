@@ -16,10 +16,10 @@ CU_Vixen,cu-vixen
 CU-Network,cu-network
 CU_Ravens,cu-ravens
 CU-SEL,cu-sel
-CU1,cu-1.0
-CU2,cu-2.0
-CU3,cu-3.0
-CU4,cu-4.0
+CU1,cu-1
+CU2,cu-2
+CU3,cu-3
+CU4,cu-4
 Delphi-Archefilter,delphi-archefilter
 Delphi-Epicast-Mturk,delphi-epicast_mturk
 Delphi-Epicast,delphi-epicast
@@ -53,7 +53,7 @@ ICS,ics-ics
 ISU,isu-isu
 JL,jl-jl
 KBSI,kbsi-kbsi
-KBSI1,kbsi-1.0
+KBSI1,kbsi-1
 Kernel of Truth,kot-kot1
 KISTI_CSB_26weeks,kisti-csb_26weeks
 KISTI_JHKIM,kisti-jhkim
@@ -66,7 +66,7 @@ KoT-GPthingy,kot-gpthingy
 KOT-Stable,kot-stable
 KPWHRI,kpwhri-kpwhri
 LANL,lanl-lanl
-LANL_DBMplus,lanl-dmbplus
+LANL_DBMplus,lanl-dbmplus
 LANL-Dante,lanl-dante
 LANL_Danteplus,lanl-danteplus
 LANL-DBM,lanl-dbm
@@ -75,7 +75,7 @@ NEU,neu-neu
 NEU-GLEAM,neu-gleam
 PPFST,ppfst-ppfst
 PPFST Crowd,ppfst-crowd
-PPFST2,ppfst-2.0
+PPFST2,ppfst-2
 PredSci,predsci-predsci
 Protea-Cheetah,protea-cheetah
 Protea-Springbok,protea-springbok
@@ -97,13 +97,13 @@ UA EpiFlu,ua-epiflu
 UA I,ua-i
 UA_EpiCos,ua-epicos
 UA-EpiCos,ua-epicos
-UCSF3,ucsf-3.0
+UCSF3,ucsf-3
 UMN,umn-umn
 UMNSpl,umn-spi
 UniMelb,uom-uom
 UnwghtAvg,unwghtavg-unwghtavg
 uom,uom-uom
 UoM-DSTG,uom-dstg
-Yale1,yale-1.0
-Yale2,yale-2.0
+Yale1,yale-1
+Yale2,yale-2
 YaleModel,yale-model

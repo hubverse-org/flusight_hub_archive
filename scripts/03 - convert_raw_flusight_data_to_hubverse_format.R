@@ -114,7 +114,7 @@ reduce_and_prepare_data <- function(
   df = df[, .SD, .SDcols = cols]
   
   # generate horizon
-  df[, horizon:=fifelse(grepl("wk ahead", target), substr(target,1,1), NA_character_)]
+  df[, horizon:=as.integer(fifelse(grepl("wk ahead", target), substr(target,1,1), NA_character_))]
   
   # revalue target:
   df[, target:=fcase(
