@@ -82,16 +82,19 @@ local_validate_model_data <- function (hub_path, file_path, round_id_col = NULL,
   checks
 }
 
-checklist <- purrr::map(
-  output_files,
-  ~local_validate_model_data(hub_path = "./", 
-                             file_path = .x)
-)
+# checklist <- purrr::map(
+#  output_files,
+#  ~local_validate_model_data(hub_path = "./", 
+#                             file_path = .x)
+# )
 
+
+sink("validation_output.txt")
 for (file in output_files) {
   # file = output_files[1]
   print(paste("checking", file))
   tmp <- local_validate_model_data(hub_path = "./", 
                           file_path = file)
-  print(tmp)
+  lapply(tmp, print)
 }
+sink()
