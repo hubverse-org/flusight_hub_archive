@@ -1,0 +1,14 @@
+team_abbr: "lanl"
+model_abbr: "dante"
+model_contributors: [
+  {
+    "name": "Dave Osthus",
+    "affiliation": "Los Alamos National Laboratory",
+    "email": "dosthus@lanl.gov"
+  },
+  {
+    "name": "Sara Del Valle",
+    "affiliation": "Los Alamos National Laboratory",
+    "email": "sdelvall@lanl.gov"
+  }
+]

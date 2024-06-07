@@ -1,0 +1,17 @@
+team_abbr: "ua"
+model_abbr: "epiflu"
+model_contributors: [
+  {
+    "name": "Joceline Lega",
+    "affiliation": "University of Arizona",
+    "email": "lega@math.arizona.edu"
+  },
+  {
+    "name": "Hannah Biegel",
+    "affiliation": "University of Arizona",
+    "email": "hbiegel@math.arizona.edu"
+  }
+]
+methods_long: "This is the same model as JL2 from last year. It matches the data plotted in the (cumulative wILI, wILI) plane to a curve obtained by averaging rescaled historical information. Noise is added to cumulative wILI reports to generate 15,000 datasets, each of which is run through the model to produce a set of predictions for each target. The latter are used to create the histograms provided in the submission file."
+
+

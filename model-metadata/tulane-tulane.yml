@@ -1,0 +1,11 @@
+team_abbr: "tulane"
+model_abbr: "tulane"
+model_contributors: [
+  {
+    "name": "James M. Hyman",
+    "affiliation": "Tulane",
+    "email": "mhyman@tulane.edu"
+  }
+]
+
+

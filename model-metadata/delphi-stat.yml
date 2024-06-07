@@ -1,0 +1,32 @@
+team_abbr: "delphi"
+model_abbr: "stat"
+model_contributors: [
+  {
+    "name": "Logan Brooks",
+    "email": "brooks.logan@gmail.com"
+  },
+  {
+    "name": "David Farrow",
+    "email": "dfarrow0@gmail.com"
+  },
+  {
+    "name": "Roni Rosenfeld",
+    "affiliation": "Carnegie Mellon University",
+    "email": "Roni.Rosenfeld@cs.cmu.edu"
+  },
+  {
+    "name": " Shannon Gallagher",
+    "affiliation": "Carnegie Mellon University"
+  },
+  {
+    "name": "Sangwon Hyuni",
+    "affiliation": "Carnegie Mellon University"
+  },
+  {
+    "name": "Ryan J Tibshirani",
+    "affiliation": "Carnegie Mellon University"
+  }
+]
+citation: "https://github.com/cdcepi/FluSight-forecasts/blob/master/Team%20Methodologies/2015-16/delphi_stat_methodology_initial.pdf"
+methods_long: "Ensemble combination of the forecasts of these individual systems, with a separate set of coefficients determined for each epi week, geographical area, metric and target."
+ensemble_of_models: true

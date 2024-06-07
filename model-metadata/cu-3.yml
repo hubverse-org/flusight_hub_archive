@@ -1,0 +1,24 @@
+team_abbr: "cu"
+model_abbr: "3"
+model_contributors: [
+  {
+    "name": "Haruka Morita",
+    "affiliation": "Columbia",
+    "email": "hm2487@cumc.columbia.edu"
+  },
+  {
+    "name": "Jeffery L Shaman",
+    "affiliation": "Columbia",
+    "email": "jls106@cumc.columbia.edu"
+  },
+  {
+    "name": "Sasikiran Kandula",
+    "affiliation": "Columbia",
+    "email": "sk3542@cumc.columbia.edu"
+  },
+  {
+    "name": "Teresa K Yamana",
+    "affiliation": "Columbia",
+    "email": "tky2104@cumc.columbia.edu"
+  }
+]

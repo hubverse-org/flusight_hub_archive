@@ -1,0 +1,26 @@
+team_abbr: "lstm"
+model_abbr: "draft"
+model_contributors: [
+  {
+    "name": "Venna, S. R.",
+  },
+  {
+    "name": "Tavanaei, A.",
+  },
+  {
+    "name": "Gottumukkala, R. N.",
+  },
+  {
+    "name": "Raghavan, V. V.",
+  },
+  {
+    "name": "Maida, A. S.",
+
+  },
+  {
+    "name": "Nichols, S.",
+  
+  }
+]
+citation: "Venna, S. R., Tavanaei, A., Gottumukkala, R. N., Raghavan, V. V., Maida, A. S., & Nichols, S. (2018). A novel data-driven model for real-time influenza forecasting. IEEE Access, 7, 7691-7701."
+methods: "A multivariate LSTM model that takes the neighboring regions' historical informaiton to predict the next ILI percentage over a horizon"

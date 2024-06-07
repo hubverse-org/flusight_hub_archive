@@ -1,0 +1,14 @@
+team_abbr: "kbsi"
+model_abbr: "1"
+model_contributors: [
+  {
+    "name": "John Freeze",
+    "affiliation": "KBSI",
+    "email": "jfreeze@kbsi.com"
+  }
+]
+methods_long: "To create predictions, the mean and standard deviation of previous years percentage of influenza-like-illness symptoms (Percent Weighted ILI) was calculated for each week of the year. Then, the current weeks data is divided by the weekly mean to provide a scaling factor. All other weeks predictions are then derived by scaling the mean by this scaling factor.
+To determine the probability of lying within each 0.5% interval, a normal distribution was used. Each value was limited to 0.01%. Then, the sum of all probabilities was normalized to 1.
+A similar methodology was used to predict the season start and peak weeks. The season start and peak weeks were determined for previous data. For the season start, the current years baseline was used for all years. The mean and standard deviations were again used to create a normal distribution over each week. The error function was then used to derive the percent chance of each week being the season start or peak."
+ensemble_of_models: false
+

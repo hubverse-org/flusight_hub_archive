@@ -1,0 +1,21 @@
+team_abbr: "ceid"
+model_abbr: "ceid"
+model_contributors: [
+  {
+    "name": "Andrew Tredennick",
+    "email": "atredenn@gmail.com"
+  },
+  {
+    "name": " Trippe Ross",
+    "affiliation": "University of Georgia",
+    "email": "ceid@uga.edu"
+  },
+  {
+    "name": "Tierney O'Sullivan",
+    "affiliation": "University of Georgia",
+    "email": "tierney.osullivan@uga.edu"
+  }
+]
+methods_long: "A statistical model where the seasonal curve is modeled using splines and periodic basis functions. The model is hierarchical, such that each region and year has region- and year-specific spline coefficients that are drawn from hierarchical distribution structures (i.e., year coefficients from “global” coefficients, region coefficients from year coefficients)."
+
+

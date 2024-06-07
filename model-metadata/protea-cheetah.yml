@@ -1,0 +1,11 @@
+team_abbr: "protea"
+model_abbr: "cheetah"
+model_contributors: [
+  {
+    "name": "Craig McGowan",
+    "affiliation": "Protea Analytics",
+    "email": "craig.mcgowan@proteaanalytics.com"
+  }
+]
+methods_long: "This model is a weighted ensemble between three component models. A historical average model, a historical average model incorporating information on influenza A subtype prevalence, and the Protea Springbok model. Models are combined using monthly target-type weights, and the weighting scheme was chosen using leave-one-season-out cross validation."
+ensemble_of_models: true

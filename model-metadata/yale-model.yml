@@ -1,0 +1,27 @@
+team_abbr: "yale"
+model_abbr: "model"
+model_contributors: [
+  {
+    "name": "Ted Cohen",
+    "affiliation": "Yale",
+    "email": "theodore.cohen@yale.edu"
+  },
+  {
+    "name": "Christoph Zimmer",
+    "affiliation": "Yale",
+    "email": "christoph.zimmer@yale.edu"
+  },
+  {
+    "name": "Reza Yaesoubi",
+    "affiliation": "Yale",
+    "email": "reza.yaesoubi@yale.edu"
+  },
+  {
+    "name": "Sequoia Leuba",
+    "affiliation": "Yale",
+    "email": "sequoia.leuba@yale.edu"
+  }
+]
+methods_long: "We use ILInet data provided by the FluView website, and ILINearby data. We also use absolute humidity data from the National Land Data Assimilation System project-2 dataset. WE use a humidity based SIRS model developed by the Shaman group. We calculated a humidity profile for every city considered in this sutdy. In order to obtain humidity profiles on a HHS region level, we average the humidity profiles of all cities that belong to an HHS region. We use our Multiple Shooting for Stochastic Systems framework."
+ensemble_of_models: true
+

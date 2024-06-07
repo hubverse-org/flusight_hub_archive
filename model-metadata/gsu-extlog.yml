@@ -1,0 +1,22 @@
+team_abbr: "gsu"
+model_abbr: "extlog"
+model_contributors: [
+  {
+    "name": "Desiree Mustaquim",
+    "affiliation": "Centers of Disease Control and Prevention",
+     "email": "dwc6@cdc.gov"
+  },
+  {
+    "name": "Linh Thi Ngoc Dinh",
+    "affiliation": "Georgia State University",
+    "email": "ldinh4@student.gsu.edu"
+  },
+  {
+    "name": "Kimberlyn Roosa",
+    "affiliation": "Georgia State University",
+    "email": "kroosa1@student.gsu.edu"
+  }
+]
+methods_long: "1. Compute a weighted historical average curve - Each year weighted by error (1/MSE) compared to 4-week best-fit forecast (2007-2018, excl. 2009); 2. Compute average curve of all the 'superforecaster' predictions (8 weeks ahead); 3. Compute weighted curve using current data, best-fit forecast, historical average, and superforecaster average; 4. Fit extended logistic model to weighted curve and use parametric bootstrapping to quantify uncertainty."
+ensemble_of_models: false
+

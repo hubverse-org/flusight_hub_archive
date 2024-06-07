@@ -1,0 +1,17 @@
+team_abbr: "argo"
+model_abbr: "argo"
+model_contributors: [
+  {
+    "name": "Fred Lu",
+    "email": "fredlu.flac@gmail.com"
+  },
+  {
+    "name": "Mauricio Santillana",
+    "affiliation": "Harvard",
+    "email": "msantill@fas.harvard.edu"
+  }
+]
+citation: "https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-017-2424-7"
+methods_long: "Our method combines information from electronic health records (EHR) and Internet users’ search activity (Google) with historical flu activity to produce flu forecasts for the United States. Our methodology is based on a regularized multivariate regression model that dynamically selects the most appropriate variables for optimal flu estimates and automatically identifies which variables are important for prediction in every week."
+ensemble_of_models: false
+

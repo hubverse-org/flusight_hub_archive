@@ -1,0 +1,11 @@
+team_abbr: "protea"
+model_abbr: "springbok"
+model_contributors: [
+  {
+    "name": "Craig McGowan",
+    "affiliation": "Protea Analytics",
+    "email": "craig.mcgowan@proteaanalytics.com"
+  }
+]
+methods_long: "This model is a dynamic harmonic regression model using Fourier terms to capture seasonality, ARIMA errors for short-term correlation, and including Google Trends, cumulative influenza subtype prevalence, and prior ILINet backfill as potential covariates. Separate models are fit for each location."
+

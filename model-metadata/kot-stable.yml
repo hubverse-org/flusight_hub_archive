@@ -1,0 +1,22 @@
+team_abbr: "kot"
+model_abbr: "stable"
+model_contributors: [
+  {
+    "name": "Evan Ray",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "evan.l.ray@gmail.com"
+  },
+  {
+    "name": "Nicholas Reich",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "nick@schoolph.umass.edu"
+  },
+  {
+    "name": "Alexandria Brown",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "acbro0@schoolph.umass.edu"
+  }
+]
+methods_long: "KoTstable is a stable version, in which we will hold fixed all details and model fits for the component models as well as the model weights throughout the season.  Because this model will not be updated, we will be able to learn about model performance over the course of the season."
+ensemble_of_models: true
+

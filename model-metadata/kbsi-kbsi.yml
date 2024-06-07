@@ -1,0 +1,17 @@
+team_abbr: "kbsi"
+model_abbr: "kbsi"
+model_contributors: [
+  {
+    "name": "John Freeze",
+    "affiliation": "KBSI",
+    "email": "jfreeze@kbsi.com"
+  },
+  {
+    "name": "Madhav Erraguntla",
+    "affiliation": "KBSI",
+    "email": "merraguntla@kbsi.com"
+  }
+]
+methods_long: "Data from the CDC Flu Dashboard was integrated into a Support Vector Machine (SVM) model to predict point estimates for the season start week, season peak week, season peak ILI, and 1-4 week projected ILI. Other derived variables were calculated to introduce nonlinearity and account for the time series nature of the data. The models were trained on a subset of the available years of data. A normal distribution was defined for each prediction, with the predicted point estimate as the mean. The standard deviation of the normal distribution was the root mean square of the error (RMSE) of the predictions over the training data, separated by HHS region and week number. The bin probabilities were then obtained by integrating the normal distribution over the bin limits."
+ensemble_of_models: true
+

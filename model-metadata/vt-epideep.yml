@@ -1,0 +1,27 @@
+team_abbr: "vt"
+model_abbr: "epideep"
+model_contributors: [
+  {
+    "name": "Bijaya Adhikari",
+    "affiliation": "Virginia Tech",
+    "email": "bijaya@vt.edu"
+  },
+  {
+    "name": "Xinfeng Xu",
+    "affiliation": "Virginia Tech",
+    "email": "xinfeng@vt.edu"
+  },
+  {
+    "name": "Naren Ramakrishnan",
+    "affiliation": "Virginia Tech",
+    "email": "naren@cs.vt.edu"
+  },
+  {
+    "name": "Aditya Ptakash",
+    "affiliation": "Virginia Tech",
+    "email": "badityap@cs.vt.edu"
+  }
+]
+citation: "https://dl.acm.org/doi/10.1145/3292500.3330917"
+methods: "Deep learning model based on LSTM units. It leverages similarity between past seasons with a deep clustering module."
+

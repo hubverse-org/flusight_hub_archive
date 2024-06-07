@@ -1,0 +1,12 @@
+team_abbr: "gh"
+model_abbr: "teama"
+model_contributors: [
+  {
+    "name": "Mathias Bellaiche",
+    "affiliation": "Guidehouse",
+    "email": "mbellaiche@guidehouse.com"
+  }
+]
+methods_long: "Agent-based model of states interacting with strengths determined by flight connectivity, using SIR framework and historical ILINet data."
+ensemble_of_models: false
+

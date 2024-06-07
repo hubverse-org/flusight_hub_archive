@@ -1,0 +1,22 @@
+team_abbr: "vt"
+model_abbr: "4sight2"
+model_contributors: [
+  {
+    "name": "Naren Ramakrishnan",
+    "affiliation": "Virginia Tech",
+    "email": "naren@cs.vt.edu"
+  },
+  {
+    "name": "Debanjan Datta <",
+    "affiliation": "Virginia Tech",
+    "email": "ddatta@vt.edu"
+  },
+  {
+    "name": "Srinivasan Venkatramanan",
+    "affiliation": "Virginia Tech",
+    "email": "vsriniv@bi.vt.edu"
+  }
+]
+citation: " "
+methods_long: "Simple series model for short term targets and historical estimates with some corrections for seasonal targets. Sometime during season, we hope to start using a metapopulation SEIR model of influenza, at the level of counties, connected by commuter and airline matrices."
+

@@ -1,0 +1,17 @@
+team_abbr: "kisti"
+model_abbr: "jhkim"
+model_contributors: [
+  {
+    "name": "Juhyeon Kim",
+    "affiliation": "Korea Institute of Science and Technology Information",
+    "email": "hk@kisti.re.kr"
+  },
+  {
+    "name": "Insung Ahn",
+    "affiliation": "Korea Institute of Science and Technology Information",
+    "email": "isahn@kisti.re.kr"
+  }
+]
+citation: "Kim, J., Ahn, I. Weekly ILI patient ratio change prediction using news articles with support vector machine. BMC Bioinformatics 20, 259 (2019) doi:10.1186/s12859-019-2894-2."
+methods_long: "Infectious disease related articles from 2010 to now published from ProMED Mail are collected. With natural language process(NLP) technique, keywords related to 'influenza' are picked and the number of articles containing those keywords are extractred. Weekly timeseries data is generated with extracted count data. Data from 2010 to 2016 is used as training data of GRU model and the remainder is used as validation set. With articles from ProMED Mail in last 7 days (from Monday to Sunday) are used for test set each weeks."
+ensemble_of_models: false

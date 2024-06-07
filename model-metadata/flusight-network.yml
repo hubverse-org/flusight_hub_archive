@@ -1,0 +1,33 @@
+team_abbr: "flusight"
+model_abbr: "network"
+model_contributors: [
+  {
+    "name": "Nicholas Reich",
+    "affiliation": "University of Massachusetts ",
+    "email": "nick@schoolph.umass.edu"
+  },
+  {
+    "name": "Abhinav Tushar",
+    "email": "abhinav.tushar.vs@gmail.com"
+  },
+  {
+    "name": " Katie House",
+    "affiliation": "University of Massachusetts ",
+    "email": "khouse@umass.edu"
+  },
+  {
+    "name": "Graham Gibson",
+    "affiliation": "University of Massachusetts ",
+    "email": "gcgibson@umass.edu"
+  },
+  {
+    "name": "Nutcha Wattanachit",
+    "affiliation": "University of Massachusetts ",
+    "email": "nutcha.wattanachit@gmail.com"
+  },
+  {
+    "name": "Tom McAndrew",
+    "affiliation": "University of Massachusetts ",
+    "email": "tomcm39@gmail.com"
+  }
+]

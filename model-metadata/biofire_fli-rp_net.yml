@@ -1,0 +1,23 @@
+team_abbr: "biofire_fli"
+model_abbr: "rp_net"
+model_contributors: [
+  {
+    "name": "Jeff Nawrocki",
+    "affiliation": "BioFire Diagnostics",
+    "email": "Jeff.Nawrocki@biofiredx.com"
+  },
+  {
+    "name": "Katherine Olin",
+    "affiliation": "BioFire Diagnostics",
+    "email": "Katherine.Olin@biofiredx.com"
+  },
+  {
+    "name": "Jay Jones ",
+    "affiliation": "BioFire Diagnostics",
+    "email": "Jay.Jones@biofiredx.com"
+  }
+]
+citation: "https://publichealth.jmir.org/2018/3/PDF "
+methods_long: "This is a Long Short Term Memory (LSTM) neural network utilizing data from BioFire® Syndromic Trends® along with ILI. These data are the national rates of multiple respiratory pathogens (influenza A, influenza B, RSV, HRV, etc…) reported by over 30 participating sites using the BioFire FilmArray device."
+
+
