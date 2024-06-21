@@ -1,0 +1,16 @@
+team_abbr: "team"
+model_abbr: "ga"
+model_contributors: [
+  {
+    "name": "Desiree Mustaquim",
+    "affiliation": "Centers of Disease Control and Prevention",
+     "email": "dwc6@cdc.gov"
+  },
+  {
+    "name": "Linh Thi Ngoc Dinh",
+    "affiliation": "Georgia State University",
+    "email": "ldinh4@student.gsu.edu"
+  }
+]
+
+

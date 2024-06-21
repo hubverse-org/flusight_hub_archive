@@ -1,0 +1,22 @@
+team_abbr: "evoepiflu"
+model_abbr: "cluster"
+model_contributors: [
+  {
+    "name": "Xiangjun Du",
+    "affiliation": "University of Chicago"
+  },
+  {
+    "name": "Aaron A King",
+    "affiliation": "University of Michigan"
+  },
+  {
+    "name": "Robert J woods",
+    "affiliation": "University of Michigan"
+  },
+  {
+    "name": "Mercedes Pascual",
+    "affiliation": "University of Chicago, Sante Fe Institute"
+  }
+]
+citation: "https://pubmed.ncbi.nlm.nih.gov/29070700/"
+methods_long: "Discrete distance calculations are only used for H3N2. The calculations for the remaining subtypes of this version of the model are the same as for the other subtypes of the continuity model and are not described again. For the model that incorporates evolutionary change through cluster transitions, cluster transitions are identified first on the basis of sequences, and when one such transition is identified, the degree of the change is then quantified. This change influences model parameters (rate of immunity loss here) in the form of a step function; that is, in the cluster model, an effect of evolutionary change in the virus is only applied to the epidemiological parameters when a cluster transition is identified (or predicted), and at this time, a measure of the magnitude of the change in the virus relative to the recent past is used as a covariate."

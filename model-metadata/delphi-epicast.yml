@@ -1,0 +1,24 @@
+team_abbr: "delphi"
+model_abbr: "epicast"
+model_contributors: [
+  {
+    "name": "Logan Brooks",
+    "email": "brooks.logan@gmail.com"
+  },
+  {
+    "name": "David Farrow",
+    "email": "dfarrow0@gmail.com"
+  },
+  {
+    "name": "Roni Rosenfeld",
+    "affiliation": "Carnegie Mellon University",
+    "email": "Roni.Rosenfeld@cs.cmu.edu"
+  },
+  {
+    "name": "Jiaxian Sheng",
+    "affiliation": "Carnegie Mellon University",
+    "email": "jiaxians@andrew.cmu.edu"
+  }
+]
+methods_long: "Formed by taking user trajectories, injecting noise on past weeks proportional to backfill variance, measuring target values on each sampeld trajectory, finding the median and variance for each target, and blending final distributions with a small uniform probability."
+ensemble_of_models: false

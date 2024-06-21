@@ -1,0 +1,32 @@
+team_abbr: "ics"
+model_abbr: "ics"
+model_contributors: [
+  {
+    "name": "Kai-Uwe Kuhnberger",
+    "affiliation": "Universitat Osnabruck",
+    "email": "kai-uwe.kuehnberger@uni-osnabrueck.de"
+  },
+  {
+    "name": "Pascal Nieters",
+    "affiliation": "Universitat Osnabruck",
+    "email": "pnieters@uni-osnabrueck.de"
+  },
+  {
+    "name": "Hendirk Berkemeyer",
+    "affiliation": "Universitat Osnabruck",
+    "email": "hberkemeyer@uni-osnabrueck.de"
+  },
+  {
+    "name": "Hristofor Lukanov",
+    "affiliation": "Universitat Osnabruck",
+    "email": "hlukanov@uni-osnabrueck.de"
+  },
+  {
+    "name": "Gordon Pipa",
+    "affiliation": "Universitat Osnabruck",
+    "email": "gpipa@uos.de"
+  }
+]
+methods_long: "We are using Generalized Linear Models (GLM) combining different variables and time-scales. The long-term average ILINet activity for each calendar week is used as offset for the model. The residuals, i.e. the deviation from the average, of the historical ILInet data as well as relevant Twitter data are used as input. These time series are folded with several splines that cover various time-ranges of the past."
+ensemble_of_models: true
+

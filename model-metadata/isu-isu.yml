@@ -1,0 +1,34 @@
+team_abbr: "isu"
+model_abbr: "isu"
+model_contributors: [
+  {
+    "name": "Nicholas Michaud",
+    "affiliation": "Iowa State University",
+    "email": "michaud@iastate.edu"
+  },
+  {
+    "name": "Jared Niemi",
+    "affiliation": "Iowa State University",
+    "email": "niemi@iastate.edu"
+  },
+  {
+    "name": "Nehemias Ulloa",
+    "affiliation": "Iowa State University",
+    "email": "nulloa1@iastate.edu"
+  }
+]
+citation: "Dredze, Mark, Renyuan Cheng, Michael J. Paul, and David Broniatowski. 'HealthTweets. org: A Platform for Public Health Surveillance using Twitter.' AAAI Workshop on the World Wide Web and Public Health Intelligence (W3PHI-2014), 2014."
+methods_long: >
+    We use a Bayesian hierarchical model framework to estimate epidemic severity
+    which incorporates data from both ILINet and healthtweets.org. The data from
+    healthtweets.org is mined from Twitter posts, and is provided 1 week earlier
+    than ILINet data, allowing our predictions to benefit from the more recent
+    data. The hierarchical structure of our model allows ILINet and healthtweets
+    data from previous years to inform the parameter values used for epidemic 
+    severity prediction in the current year. Our model fits the shape a normal 
+    pdf to the outbreak curve, and we use this shape to predict the outbreak 
+    weeks into the future. Currently, healthtweets.org does not offer data at 
+    the regional scale, so our regional predictions are informed only by ILINet 
+    data.
+ensemble_of_models: true
+

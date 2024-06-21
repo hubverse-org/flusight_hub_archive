@@ -1,0 +1,24 @@
+team_abbr: "flux"
+model_abbr: "arla"
+model_contributors: [
+  {
+    "name": "Srinivasan Venkatramanans",
+    "affiliation": "University of Virginia",
+    "email": "srini@virginia.edu"
+  },
+  {
+    "name": "Bryan Leroy Lewis",
+    "affiliation": "University of Virginia",
+    "email": "brylew@virginia.edu"
+  },
+    {
+    "name": "Aniruddha Adiga",
+    "affiliation": "University of Virginia",
+    "email": "aa5dw@virginia.edu"
+  },
+  {
+    "name": "Lijing Wang",
+    "affiliation": "University of Virginia",
+    "email": "lw8bn@virginia.edu"
+  }
+]

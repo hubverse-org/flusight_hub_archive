@@ -1,0 +1,23 @@
+team_abbr: "02115"
+model_abbr: "emm"
+model_contributors: [
+  {
+    "name": "Mauricio Santillana",
+    "affiliation": "Harvard",
+    "email": "msantill@g.harvard.edu"
+  },
+  {
+    "name": "Qian Zhang",
+    "email": "zhangqianrach@gmail.com"
+  },
+  {
+    "name": "Xinyue Xiong",
+    "email": "xiong.xin@husky.neu.edu"
+  },
+    {
+    "name": "Alessandro Vespignani",
+    "email": "neu.vespignani.challenge@gmail.com"
+  }
+]
+
+

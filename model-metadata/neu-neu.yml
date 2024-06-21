@@ -1,0 +1,16 @@
+team_abbr: "neu"
+model_abbr: "neu"
+model_contributors: [
+  {
+    "name": "Alessandro Vespignani",
+    "affiliation": "Northeastern University",
+    "email": "neu.vespignani.challenge@gmail.com"
+  },
+  {
+    "name": "Qian Zhang",
+    "affiliation": "Northeastern University",
+    "email": "zhangqian.rach@gmail.com"
+  }
+]
+ensemble_of_models: true
+

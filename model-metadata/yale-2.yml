@@ -1,0 +1,27 @@
+team_abbr: "yale"
+model_abbr: "2"
+model_contributors: [
+  {
+    "name": "Ted Cohen",
+    "affiliation": "Yale",
+    "email": "theodore.cohen@yale.edu"
+  },
+  {
+    "name": "Christoph Zimmer",
+    "affiliation": "Yale",
+    "email": "christoph.zimmer@yale.edu"
+  },
+  {
+    "name": "Reza Yaesoubi",
+    "affiliation": "Yale",
+    "email": "reza.yaesoubi@yale.edu"
+  },
+  {
+    "name": "Sequoia Leuba",
+    "affiliation": "Yale",
+    "email": "sequoia.leuba@yale.edu"
+  }
+]
+methods_long: "We call this approach experimental because we plan to include further data sources 'on the flu' when they become available. The main difference between this approach and the Model1 approach is the treatment of ILI as one disease in an SIRS model (compared to 2 diseases- flu and ILI without flu- in the YaleModel1. This is a difference in data source and modeling only, the calibration and prediction techniques are identical in both approaches."
+ensemble_of_models: true
+

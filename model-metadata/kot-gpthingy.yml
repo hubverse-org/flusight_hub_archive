@@ -1,0 +1,30 @@
+team_abbr: "kot"
+model_abbr: "gpthingy"
+model_contributors: [
+  {
+    "name": "Evan Ray",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "evan.l.ray@gmail.com"
+  },
+  {
+    "name": "Nicholas Reich",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "nick@schoolph.umass.edu"
+  },
+  {
+    "name": "Alexandria Brown",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "acbro0@schoolph.umass.edu"
+  },
+  {
+    "name": "Graham Gibson",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "gcgibson@umass.edu"
+  },
+  {
+    "name": "Thomas McAndrew",
+    "affiliation": "University of Massachusetts Amherst",
+    "email": "mcandrew@umass.edu"
+  }
+]
+

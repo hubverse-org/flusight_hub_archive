@@ -1,0 +1,27 @@
+team_abbr: "yale"
+model_abbr: "1"
+model_contributors: [
+  {
+    "name": "Ted Cohen",
+    "affiliation": "Yale",
+    "email": "theodore.cohen@yale.edu"
+  },
+  {
+    "name": "Christoph Zimmer",
+    "affiliation": "Yale",
+    "email": "christoph.zimmer@yale.edu"
+  },
+  {
+    "name": "Reza Yaesoubi",
+    "affiliation": "Yale",
+    "email": "reza.yaesoubi@yale.edu"
+  },
+  {
+    "name": "Sequoia Leuba",
+    "affiliation": "Yale",
+    "email": "sequoia.leuba@yale.edu"
+  }
+]
+methods_long: "We use the ILInet data and the data on positive influenza tests provided by the FluView website. We multiply the weighted number of ILI cases by the percentage of positive tests from the WHO Clinical Labs report to obtain an estimate for the number of influenza cases. We also subtract this number from the number of ILI cases to obtain an estimate of ILI cases not associated to influenza. Both data sets are transformed to cases per 100000 and are used for calibration and predication separately and added together in the end to produce a forecast."
+ensemble_of_models: true
+

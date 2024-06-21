@@ -1,0 +1,26 @@
+team_abbr: "lanl"
+model_abbr: "dbm"
+model_contributors: [
+  {
+    "name": "Dave Osthus",
+    "affiliation": "Los Alamos National Laboratory",
+    "email": "dosthus@lanl.gov"
+  },
+  {
+    "name": "Sara Del Valle",
+    "affiliation": "Los Alamos National Laboratory",
+    "email": "sdelvall@lanl.gov"
+  },
+  {
+    "name": "Reid Priedhorsky",
+    "affiliation": "Los Alamos National Laboratory"
+  },
+  {
+    "name": "Jim Gattiker",
+    "affiliation": "Los Alamos National Laboratory"
+  },
+]
+citation: "https://arxiv.org/pdf/1708.09481.pdf"
+methods_long: "The DBM combines an SIR model with a flexible discrepancy function in a Bayesian framework. Methodological details can be found here: https://arxiv.org/pdf/1708.09481.pdf. The DBM only uses ILI Net data, though it uses all available historical ILI Net data (i.e., from 1997 through the present, sans the H1N1 seasons). The discrepancy function is learned by fitting all seasons within a region hierarchically. All regions are fit independently."
+ensemble_of_models: false
+

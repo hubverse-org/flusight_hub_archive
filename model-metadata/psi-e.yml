@@ -1,0 +1,26 @@
+team_abbr: "psi"
+model_abbr: "e"
+model_contributors: [
+  {
+    "name": "Steve Riley",
+    "affiliation": "Imperial College London",
+    "email": "s.riley@imperial.ac.uk"
+  },
+  {
+    "name": "Michal Ben-Nun",
+    "affiliation": "PredSci",
+    "email": "mbennun@predsci.com"
+  },
+  {
+    "name": "James Turtle",
+    "affiliation": "PredSci",
+    "email": "jturtle@predsci.com"
+  },
+  {
+    "name": "Pete Riley",
+    "affiliation": "PredSci",
+    "email": "pete@predsci.com"
+  }
+]
+
+

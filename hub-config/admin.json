@@ -1,13 +1,13 @@
 {
-    "schema_version": "https://raw.githubusercontent.com/Infectious-Disease-Modeling-Hubs/schemas/main/v2.0.0/admin-schema.json",
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v2.0.1/admin-schema.json",
     "name": "FluSight 1 Forecast Hub",
     "maintainer": "Consortium of Infectious Disease Modeling Hubs",
     "contact": {
         "name": "Luke Mullany",
         "email": "Luke.Mullany@jhuapl.edu"
     },
-    "repository_url": "https://github.com/lmullany/flusight1_hub",
+    "repository_url": "https://github.com/hubverse-org/flusight1_hub",
     "file_format": ["csv", "parquet"],
     "timezone": "US/Eastern",
-    "model_output_dir": "model-output"
+    "model_output_dir": "model-output",
 }

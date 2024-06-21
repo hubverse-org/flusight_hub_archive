@@ -1,0 +1,38 @@
+team_abbr: "harvard"
+model_abbr: "harvard"
+model_contributors: [
+  {
+    "name": "Fred Lu",
+    "affiliation": "Harvard",
+    "email": fredlu@college.harvard.edu
+  },
+  {
+    "name": "Shihao Yang",
+    "affiliation": "Harvard",
+    "email": shihaoyang@g.harvard.edu
+  },
+  {
+    "name": "John Brownstein",
+    "affiliation": "Harvard"
+  },
+  {
+    "name": "AthenaResearch team"
+  },
+  {
+    "name": "AthenaHealth"
+  },
+  {
+    "name": "Mauricio Santillana",
+    "affiliation": "Harvard",
+    "email": "msantill@g.harvard.edu"
+  },
+  {
+    "name": "Samuel Kou",
+    "affiliation": "Harvard",
+    "email": "kou@stat.harvard.edu"
+  }
+]
+citation: "S. Yang, M. Santillana, and S. C. Kou. Accurate estimation of influenza epidemics using Google search data via ARGO. Proceedings of the National Academy of Sciences, 112.47, pp: 14473-14478, 2015."
+methods_long: "Our method combines information from electronic health records (EHR) and Internet users’ search activity (Google) with historical flu activity to produce flu forecasts for the United States. Our methodology is based on a regularized multivariate regression model that dynamically selects the most appropriate variables for optimal flu estimates and automatically identifies which variables are important for prediction in every week."
+ensemble_of_models: true
+

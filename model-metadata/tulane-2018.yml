@@ -1,0 +1,16 @@
+team_abbr: "tulane"
+model_abbr: "2018"
+model_contributors: [
+  {
+    "name": "James M. Hyman",
+    "affiliation": "Tulane",
+    "email": "mhyman@tulane.edu"
+  },
+  {
+    "name": "Lin Li",
+    "affiliation": "Tulane",
+    "email": "lli15@tulane.edu"
+  }
+]
+
+

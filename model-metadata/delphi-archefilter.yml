@@ -1,0 +1,19 @@
+team_abbr: "delphi"
+model_abbr: "archefilter"
+model_contributors: [
+  {
+    "name": "Logan Brooks",
+    "email": "brooks.logan@gmail.com"
+  },
+  {
+    "name": "David Farrow",
+    "email": "dfarrow0@gmail.com"
+  },
+  {
+    "name": "Roni Rosenfeld",
+    "affiliation": "Carnegie Mellon University",
+    "email": "Roni.Rosenfeld@cs.cmu.edu"
+  }
+]
+methods_long: "Gathers digital surveillance, projects it forward using an archetype trajectory, inflates wILI on holiday weeks, injects noise on past weeks proportional to backfill variance, measure target values on each sampled trajectory, finds the median and variance of each target, and blends final distributions with a small uniform"
+ensemble_of_models: false

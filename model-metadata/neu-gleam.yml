@@ -1,0 +1,10 @@
+team_abbr: "neu"
+model_abbr: "gleam"
+model_contributors: [
+  {
+    "name": "Alessandro Vespignani",
+    "affiliation": "Northeastern University",
+    "email": "neu.vespignani.challenge@gmail.com"
+  }
+]
+

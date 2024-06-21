@@ -45,3 +45,4 @@ arrow::write_parquet(invalid_pmfs, "../excluded_output/invalid_pmfs.parquet")
 
 # Reduce df to those that are not invalid and revert to the cols to keep
 df <- df[!df[pmf_class==2 | cdf_class==2, .(task_id)], on="task_id", .SD, .SDcols = cols_to_keep]
+

@@ -1,0 +1,15 @@
+team_abbr: "umn"
+model_abbr: "spi"
+model_contributors: [
+  {
+    "name": "Joe Servadio",
+    "affiliation": "University of Minnesota",
+    "email": "serva024@umn.edu"
+  },
+  {
+    "name": "Ryan Gavin",
+    "affiliation": "University of Minnesota",
+    "email": "gavi0065@umn.edu"
+  }
+]
+

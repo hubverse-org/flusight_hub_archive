@@ -1,0 +1,14 @@
+team_abbr: "flusight"
+model_abbr: "avg"
+model_contributors: [
+  {
+    "name": "Nicholas Reich",
+    "affiliation": "University of Massachusetts ",
+    "email": "nick@schoolph.umass.edu"
+  },
+  {
+    "name": "Abhinav Tushar",
+    "email": "abhinav.tushar.vs@gmail.com"
+  }
+]
+

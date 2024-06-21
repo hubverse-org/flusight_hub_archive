@@ -1,0 +1,12 @@
+team_abbr: "ua"
+model_abbr: "epicos"
+model_contributors: [
+  {
+    "name": "Hannah Biegel",
+    "affiliation": "University of Arizona",
+    "email": "hbiegel@math.arizona.edu"
+  }
+]
+methods_long: "Forecasts are made using the dynamical system dX/dt = a cos(bX) + c, describing the change in cumulative wILI. Model parameters are fit using data assimilation techniques, and forecasts are made by solving the ODE forward in time with the estimated parameter choices."
+
+
