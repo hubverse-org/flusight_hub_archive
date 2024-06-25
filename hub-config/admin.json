@@ -15,7 +15,7 @@
         "host": {
           "name": "aws",
           "storage_service": "s3",
-          "storage_location": "flusight-hub-archive"
+          "storage_location": "uscdc-flusight-hub-v1"
         }
     }
 }
